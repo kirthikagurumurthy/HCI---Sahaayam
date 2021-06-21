@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  color: #3d3d3d;
+  background: #c8c8c8;
+  font: 600 16px/18px "Open Sans", sans-serif;
+}
+
+.homepage .navbar {
+  margin-bottom: 0;
+  background-color: #1b1b1b;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.homepage .navbar li a,
+.homepage .navbar .navbar-brand {
+  color: #dfdfdf !important;
+}
+
+.homepage .navbar-nav li a:hover,
+.homepage .navbar-nav li.active a {
+  color: #3d3d3d !important;
+  background-color: #dfdfdf !important;
+}
+
+.homepage .navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #dfdfdf !important;
+}
+
+.homepage .thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.homepage .thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.homepage .carousel-control.right,
+.homepage .carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+}
+
+.homepage .carousel-indicators li {
+  border-color: #f4511e;
+}
+
+.homepage .carousel-indicators li.active {
+  background-color: #3d3d3d;
+}
+
+.homepage .item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.homepage .item span {
+  font-style: normal;
+}
